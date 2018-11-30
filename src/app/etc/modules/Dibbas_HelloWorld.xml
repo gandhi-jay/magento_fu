@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+     <modules>
+        <Dibbas_HelloWorld>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Dibbas_HelloWorld>
+     </modules>
+</config>

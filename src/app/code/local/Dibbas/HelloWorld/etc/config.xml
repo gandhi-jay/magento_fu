@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Dibbas_HelloWorld>
+            <version>0.1.0</version>
+        </Dibbas_HelloWorld>
+    </modules>
+    <frontend>
+        <routers>
+            <!-- the <helloworld> tagname appears to be arbitrary, but by
+            convention is should match the frontName tag below-->
+            <helloworld>
+                <use>standard</use>
+                <args>
+                    <module>Dibbas_HelloWorld</module>
+                    <frontName>helloworld</frontName>
+                </args>
+            </helloworld>
+        </routers>
+    </frontend>
+</config>
